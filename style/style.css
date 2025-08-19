@@ -1,0 +1,38 @@
+:root {
+  --primary-color: #1abc9c;   /* verde água */
+  --secondary-color: #3498db; /* azul */
+  --text-color: #e74c3c;    /* vermelho */
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: roboto,nunito, sans-serif;
+}
+
+/** Boot CSS **/
+.center{
+    max-width: 1200px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+.w33{
+    width: 33.33%;
+}
+.w50{
+    width: 50%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
